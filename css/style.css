@@ -1,0 +1,164 @@
+/* Global css */
+*{
+
+}
+section{
+  padding: 75px 0px;
+}
+header{
+  background-color: #87509c;
+}
+nav ul li a{
+  padding: 10px;
+  margin: 0px 5px;
+  border-radius: 5px;
+}
+nav ul li a:hover{
+  background: rgba(0, 0, 0, 0.171);
+}
+.hero-part .cstm-btn{
+  background-color: #eb7d4b;
+  border: none;
+}
+.hero-part .cstm-btn:hover{
+  background-color: white;
+  color: #eb7d4b;
+}
+.hero-part{
+  padding: 100px 150px;
+}
+#service{
+  background-color: #17c2a4;
+  color: white;
+}
+.underline{
+  border: 3px solid rgba(0, 0, 0, 0.267);
+  width: 5%;
+  margin: 10px auto;
+}
+#team{
+  background-color: #d2e0e9;
+  color: #3c4761;
+}
+#team .des{
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 30px;
+  color: #30bae7;
+}
+.team-icons{
+  margin-top: 30px;
+}
+.team-icons i{
+  background-color: #bdd1df;
+  color: white;
+  padding: 10px;
+  border-radius: 100%;
+  width: 40px;
+}
+.team-icons i:hover{
+  background-color: white;
+  color: #bdd1df;
+}
+#portfolio{
+  background-color: #ffdd99;
+  text-align: center;
+  color: #393939;
+}
+.portfolio-btn{
+  margin: 30px;
+
+}
+.portfolio-btn a button{
+  padding: 10px 40px;
+  background-color: #ebc985 !important;
+  border-radius: 5px;
+  border: none;
+}
+
+.portfolio-btn a button:hover{
+  background-color: white !important;
+  color:#393939 !important;
+}
+.prot-btn{
+  background-color: #17c2a4;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.prot-btn:hover{
+  background-color: #fff;
+  color: #17c2a4 !important;
+}
+#about{
+  background-color: #d74680;
+}
+#about .des{
+  font-size: 15px;
+  line-height: 20px;
+  color: #facd96;
+}
+#about .p p{
+  font-style: italic;
+}
+#about .sub-heading{
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 25px;
+  margin: 10px 0px;
+}
+#contact{
+  background-color: #3c5499;
+}
+.from1-text-part input{
+  background-color: #273a71;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.from1-email-part input{
+  background-color: #273a71;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+textarea{
+  background-color: #273a71;
+  border-radius: 5px;
+  border: none;
+}
+input{
+  background-color: #30bae7;
+  border: none;
+}
+#footer{
+  background-color: #344b8e;
+}
+.container{
+  text-align: center;
+}
+.footer-part ul{
+  padding: 5px 0px;
+}
+.container li{
+ display: inline-block;
+ padding: 10px 20px;
+ transition: ease-in-out 0.5s;
+}
+.container li a{
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.container li a:hover{
+  background-color: #344b8e;
+  color: #17c2a4;
+}
+
+@media (max-width: 576px){
+  .hero-part{
+    padding: 50px 25px;
+  }
+}
